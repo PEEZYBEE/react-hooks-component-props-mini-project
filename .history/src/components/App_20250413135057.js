@@ -9,7 +9,7 @@ function App() {
   const { name, image, about, posts } = blogData;
 
   return (
-    <div className="App">
+    <div>
       <Header name={name} />
       <About image={image} about={about} />
       <ArticleList posts={posts} />
